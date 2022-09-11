@@ -1,1 +1,0 @@
-print('hello world this new learning python repository')
