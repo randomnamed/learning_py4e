@@ -18,3 +18,7 @@ Coursera Course - Python for Everybody Specialization
 - git add .
 - git commit -m "your meesage here"
 - git push
+
+**Delete branch after work is Done**
+- git branch --delete <branchname>
+- git branch -a command to verify the local Git branch is deleted
