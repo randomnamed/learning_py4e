@@ -1,0 +1,32 @@
+# XML 'Elements' (or Nodes)
+''' <people> this is a tag
+        <person>
+            <name>Chuck</name>
+            <phone>147654</phone> ### Simple Element
+            <email hide="yes" /> 
+            ### Self closing tag and Attribute
+        </person>
+        <person> ### Complex Element
+            <name>Noah</name>
+            <phone>0987</phone>
+        </person>
+    </people>
+
+- Primary purpose is to help information system share structured data
+- It started as a simplified subset of the Standard Generalized Markup Language (SGML)
+    ,and is designed to be relatively human-legible
+'''
+''' XML as a Tree --> XML as paths
+<a>
+    <b>X</b>
+    <c>
+        <d>Y</d>
+        <e>Z</e>
+    </c>
+</a>
+
+paths
+/a/b   X
+/a/c/d   Y
+/a/c/e   Z
+''' 

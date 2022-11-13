@@ -1,0 +1,33 @@
+# XML Schema
+# Describing a "contract" as to what is acceptable XML.
+'''
+If the schema matches then the data is Validated
+
+many XML schema languages
+- Document Type Definition (DTD)
+- Standard Generalized Markup Language (SGML)
+- XML Schema from W3C (XSD) -- likely these days used
+
+XSD XML Schema (W3C spec)
+- we will focus on World Wide Web Consortium (W3C) version
+- filename ends with .xsd
+
+XSD Structure
+xs:element
+xs:sequence
+xs:complexType
+
+XSD Constraints
+minOccurs="0" maxOccurs="10"
+
+XSD Data Types
+type="xs:string"
+type="xs:date" (year month date is the common format of writing)
+type="xs:dateTime" (YYYY-MM-DDTHH:MM:ssZ) Z is the time zone(UTC/GMT is common to help servers scattered around the world)
+type="xs:decimal"
+type="xs:integer"
+
+ISO 8601 Date/Time format
+2002-05-30T09:30:10Z
+
+'''

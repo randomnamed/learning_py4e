@@ -1,0 +1,11 @@
+# Commonly used formats for sending data is XML or JSON
+#python dictionary --> Net --> javaHashMap
+#python dictionary --> <person><name> --> javaHashMap
+        # serialize to XML             de-serialize
+# XML is older and JSON is modern
+# XML is complex but JSON is lighter weight version of it
+#python dictionary --> {"name": "chuck", "phone": "303-44"} --> javaHashMap
+        # serialize to JSON             de-serialize
+
+#XML (eXtensible Markup Language)
+#Marking up data to send across the network..
